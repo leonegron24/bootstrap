@@ -1,0 +1,7 @@
+.cellphone{
+    background-position: top;
+}
+grow{
+    display: flex;
+    flex-grow: 1;
+}
