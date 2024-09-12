@@ -14,6 +14,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .ratio{
@@ -32,7 +33,7 @@
 }
 .shortsection{
     max-height: 40vh;
-    transform: scale(1.5) translateY(50px); /* Zoom in by 20% and move down by 20px */
+    transform: scale(1.3) translateY(30px); /* Zoom in by 20% and move down by 20px */
     object-fit: cover; /* Ensure the image fits its container after scaling */
     width: 100% ;
 }
