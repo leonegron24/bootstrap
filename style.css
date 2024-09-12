@@ -28,9 +28,17 @@
 }
 .tallsection{
     height: 60vh;
+    object-fit:cover;
 }
 .shortsection{
-    height: 40vh;
+    max-height: 40vh;
+    transform: scale(1.5) translateY(50px); /* Zoom in by 20% and move down by 20px */
+    object-fit: cover; /* Ensure the image fits its container after scaling */
+    width: 100% ;
+}
+.imagehelp{
+    position:relative;
+    overflow:hidden; 
 }
 .bigp{
     margin: 150px;
@@ -66,7 +74,7 @@
     display: flex;
     background-color: #6C7f7D; 
     color: white;
-    width: 100%;
+    width: auto;
  }
  body{
     display: flex;
@@ -89,5 +97,6 @@
     font-style: normal;
     font-size: 2.5rem;
 }
-
- 
+.padmore{
+    margin-bottom: 80px;
+}
