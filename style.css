@@ -32,10 +32,9 @@
     object-fit:cover;
 }
 .shortsection{
-    max-height: 40vh;
-    transform: scale(1.3) translateY(30px); /* Zoom in by 20% and move down by 20px */
+    max-height: 45vh;
+    transform: scale(1.7) translateY(40px); /* Zoom in by 20% and move down by 20px */
     object-fit: cover; /* Ensure the image fits its container after scaling */
-    aspect-ratio: 1/1 ;
 }
 .imagehelp{
     position:relative;
@@ -100,8 +99,4 @@
 }
 .padmore{
     margin-bottom: 80px;
-}
-
-@media{
-    
 }
