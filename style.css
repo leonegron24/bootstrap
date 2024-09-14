@@ -7,9 +7,6 @@
     flex-grow: 1;
 }
 
-.fontnice{
-    font-family:monospace;
-}
 .center{
     display: flex;
     align-content: center;
@@ -33,11 +30,10 @@
 }
 .shortsection{
     max-height: 40vh;
-    transform: scale(1.8) translateY(60px); /* Zoom in by 20% and move down by 20px */
+    transform: scale(1.6) translateY(60px); /* Zoom in by 20% and move down by 20px */
     object-fit: cover; /* Ensure the image fits its container after scaling */
 }
 .imagehelp{
-    position:relative;
     overflow:hidden; 
 }
 .bigp{
@@ -61,7 +57,7 @@
 .ymar{
     margin-top: 150px;
 }
-.mdi-icon {
+.position-absolute{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,6 +66,10 @@
     color: white; 
  }
 
+ .position-relative{
+    position:relative
+ }
+ 
 .image {
    width: 100%; 
  }
@@ -98,7 +98,6 @@
 .leadtitle{
     font-family: "Pacifico", cursive;
     font-weight: 1000;
-    font-style: normal;
     font-size: 2.5rem;
 }
 .padmore{
