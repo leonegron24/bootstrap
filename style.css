@@ -32,8 +32,8 @@
     object-fit:cover;
 }
 .shortsection{
-    max-height: 45vh;
-    transform: scale(1.7) translateY(40px); /* Zoom in by 20% and move down by 20px */
+    max-height: 40vh;
+    transform: scale(1.8) translateY(60px); /* Zoom in by 20% and move down by 20px */
     object-fit: cover; /* Ensure the image fits its container after scaling */
 }
 .imagehelp{
@@ -41,7 +41,8 @@
     overflow:hidden; 
 }
 .bigp{
-    margin: 150px;
+    max-width: 90%;
+    margin:0 auto;
 }
 .padbelow{
     margin-bottom: 150px;
@@ -57,6 +58,9 @@
     display: inline-block;
   }
 
+.ymar{
+    margin-top: 150px;
+}
 .mdi-icon {
     position: absolute;
     top: 50%;
@@ -99,4 +103,25 @@
 }
 .padmore{
     margin-bottom: 80px;
+}
+.w100{
+    width: 100%;
+}
+
+@media(max-width: 769px){
+    .bigp{
+        max-width: 100%;
+    }
+    p{
+        font-size: 1rem;
+        white-space: normal;
+    }
+    .w-50{
+        width: 100%;
+    }
+    .shortsection{
+        position: relative;
+        max-height: 30vh;
+        transform: scale(1.8) translateY(10px); /* Zoom in by 20% and move down by 20px */
+    }
 }
