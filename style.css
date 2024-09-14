@@ -103,8 +103,8 @@
 .padmore{
     margin-bottom: 80px;
 }
-.w100{
-    width: 100%;
+.h100{
+    height: 100%;
 }
 
 @media(max-width: 769px){
@@ -123,4 +123,5 @@
         max-height: 30vh;
         transform: scale(1.8) translateY(10px); /* Zoom in by 20% and move down by 20px */
     }
+
 }
